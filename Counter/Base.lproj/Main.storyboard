@@ -33,6 +33,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="incrementPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sya-P4-Qje"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ub1-11-AzJ">
                                 <rect key="frame" x="16" y="463.66666666666669" width="408" height="29"/>
@@ -52,6 +55,9 @@
                             <constraint firstItem="IY8-UY-Nj9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="pW5-P1-1EJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="counterLabel" destination="ub1-11-AzJ" id="7fX-Qb-xBP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
