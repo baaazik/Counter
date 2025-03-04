@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Counter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY8-UY-Nj9">
-                                <rect key="frame" x="288" y="850" width="62" height="48"/>
+                                <rect key="frame" x="298" y="874" width="62" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="62" id="QMC-A5-3G7"/>
                                     <constraint firstAttribute="height" constant="48" id="etY-EX-M1g"/>
@@ -32,20 +32,20 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ub1-11-AzJ">
-                                <rect key="frame" x="20" y="83" width="390" height="29"/>
+                                <rect key="frame" x="20" y="86" width="400" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="История изменений:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="q5c-BK-I51">
-                                <rect key="frame" x="20" y="208" width="390" height="618"/>
+                                <rect key="frame" x="20" y="211" width="400" height="639"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9X-BG-mzf">
-                                <rect key="frame" x="80" y="850" width="62" height="48"/>
+                                <rect key="frame" x="80" y="874" width="62" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="Nhx-gg-Onw"/>
                                     <constraint firstAttribute="width" constant="62" id="cSQ-xP-de7"/>
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRG-f2-hg9">
-                                <rect key="frame" x="184" y="136" width="62" height="48"/>
+                                <rect key="frame" x="189" y="139" width="62" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="NiZ-Vr-Eb5"/>
                                     <constraint firstAttribute="width" constant="62" id="b0m-V4-FYT"/>
