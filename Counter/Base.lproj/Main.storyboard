@@ -53,6 +53,9 @@
                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" image="minus" catalog="system" title="" imagePadding="0.0"/>
+                                <connections>
+                                    <action selector="decrementPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0vs-Mk-nJD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRG-f2-hg9">
                                 <rect key="frame" x="184" y="136" width="62" height="48"/>
@@ -62,6 +65,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" image="arrow.trianglehead.counterclockwise.rotate.90" catalog="system" title=""/>
+                                <connections>
+                                    <action selector="resetPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IGJ-ch-5ir"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -84,6 +90,7 @@
                     </view>
                     <connections>
                         <outlet property="counterLabel" destination="ub1-11-AzJ" id="7fX-Qb-xBP"/>
+                        <outlet property="logTextView" destination="q5c-BK-I51" id="l73-qu-YSv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
