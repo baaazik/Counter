@@ -16,6 +16,7 @@ final class ViewController: UIViewController {
     private var count: Int = 0 {
         didSet {
             counterLabel.text = "Значение счётчика: \(count)"
+            UserDefaults.standard.set(count, forKey: "count")
         }
     }
     
@@ -23,12 +24,15 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
+        count = UserDefaults.standard.integer(forKey: "count")
+        logTextView.text = UserDefaults.standard.string(forKey: "log")
     }
     
     func doLog(message: String) {
         let date = Date()
         let dateStr = dateFormatter.string(from: date)
         logTextView.text += "\n[\(dateStr)]: \(message)"
+        UserDefaults.standard.set(logTextView.text, forKey: "log")
     }
 
     @IBAction func incrementPress(_ sender: Any) {
